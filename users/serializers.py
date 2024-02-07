@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 
 class UserConfirmSerializer(serializers.Serializer):
     username = serializers.CharField()
-    password = serializers.CharField()
     code = serializers.IntegerField()
 
 
